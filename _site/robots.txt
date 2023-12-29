@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /publiccodenet.standard/sitemap.xml

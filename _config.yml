@@ -29,3 +29,5 @@ defaults:
       path: '/criteria/*'
     values:
       show_prev_next: true
+
+baseurl: /publiccodenet.standard
