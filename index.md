@@ -22,7 +22,7 @@ toc: false
 * [準則](criteria/){% assign sorted = site.pages | sort:"order" %}{% for page in
 sorted %}{% if page.dir == "/criteria/" %}{% if page.name != "index.md" %}{%
 if page.title %}
-   * [{{page.title}}]({{page.url}}){% endif%}{% endif%}{% endif%}{% endfor %}
+   * [{{page.title}}]({{site.baseurl}}{{page.url}}){% endif%}{% endif%}{% endif%}{% endfor %}
 * [作者群](AUTHORS.md)
 * [貢獻指引](CONTRIBUTING.md)
 * [行為守則](CODE_OF_CONDUCT.md)
